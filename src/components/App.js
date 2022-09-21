@@ -1,5 +1,6 @@
 import React from "react";
 import MovieCard from "./MovieCard";
+// import SocialMedia from "./SocialMedia";
 
 function App() {
   const title = "Mad Max";
@@ -14,4 +15,21 @@ function App() {
   );
 }
 
+
 export default App;
+
+
+// function App() {
+
+//   const socialLinks = {
+//     github: "https://github.com/liza",
+//     linkedin: "https://www.linkedin.com/in/liza/",
+//   }
+//   return (
+//     <div>
+//       <SocialMedia links={socialLinks} />
+//     </div>
+//   )
+// };
+
+// export default App;
